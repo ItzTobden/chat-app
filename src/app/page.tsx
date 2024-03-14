@@ -1,8 +1,12 @@
+import Header from '@/components/header/header'
 import React from 'react'
 
 function RootPage() {
     return (
-        <div>RootPage</div>
+        <div>
+            <Header />
+            RootPage
+        </div>
     )
 }
 
